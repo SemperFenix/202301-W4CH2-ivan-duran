@@ -17,7 +17,7 @@ type FormRouterProps = {
   formOptions: FormOptions[];
 };
 
-export function AppRouter({ formOptions }: FormRouterProps) {
+export function FormsRouter({ formOptions }: FormRouterProps) {
   return (
     <Suspense>
       <Routes>
