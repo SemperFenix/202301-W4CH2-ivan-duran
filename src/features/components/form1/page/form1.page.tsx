@@ -1,3 +1,9 @@
+import Form1 from "../form1";
+
 export default function FormOnePage() {
-  return <h2>Form 1</h2>;
+  return (
+    <>
+      <Form1></Form1>
+    </>
+  );
 }
