@@ -1,3 +1,4 @@
+import { Forms } from "../../../features/components/forms/forms";
 import { Footer } from "../footer/footer";
 import { Header } from "../header/header";
 import "./App.css";
