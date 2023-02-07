@@ -1,1 +1,3 @@
-export default function Form2() {}
+export default function Form2() {
+  return <form></form>;
+}
