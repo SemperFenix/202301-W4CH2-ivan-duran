@@ -1,3 +1,4 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import { Forms } from "../../../features/components/forms/forms";
 import { Footer } from "../footer/footer";
 import { Header } from "../header/header";
@@ -9,7 +10,9 @@ function App() {
       <div className="App">
         <Header></Header>
       </div>
-      <Forms></Forms>
+      <Router>
+        <Forms></Forms>
+      </Router>
       <Footer></Footer>
     </>
   );
