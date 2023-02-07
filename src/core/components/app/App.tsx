@@ -1,3 +1,5 @@
+import { Footer } from "../footer/footer";
+import { Header } from "../header/header";
 import "./App.css";
 
 function App() {
@@ -5,7 +7,6 @@ function App() {
     <>
       <div className="App">
         <Header></Header>
-        <AppRouter menuOptions={menuOptions}></AppRouter>
       </div>
 
       <Footer></Footer>
