@@ -31,7 +31,7 @@ export function FormsRouter({ formOptions }: FormRouterProps) {
         ></Route>
         <Route path="/error" element={<Error></Error>}></Route>
         <Route
-          path={"*"}
+          path={"/*"}
           element={<Navigate to={"/error"} replace={true}></Navigate>}
         ></Route>
       </Routes>
